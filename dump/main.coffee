@@ -4,6 +4,7 @@ info = (msg) ->
 $ ->
   info "start"
 
+  return if typeof navigator?.requestMIDIAccess isnt 'function'
   navigator.requestMIDIAccess()
   .then (midi) ->
     info "MIDI Access is OK"
