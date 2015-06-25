@@ -20,11 +20,11 @@ $(function(){
       info(`${midi.inputs.size} input devices`);
       info(`${midi.outputs.size} output devices`);
       for(let input of midi.inputs.values()){
-        info(`Input Device found: ${input.manufacturer} - ${input.name}`);
+        info(`Input Device found: ${input.name} (${input.manufacturer})`);
         console.log(input);
         input.onmidimessage = function(msg){
           console.log(msg);
-          info(JSON.stringify(msg.data));
+          info(`${JSON.stringify(msg.data)} ${input.name}`);
         };
       }
     })
