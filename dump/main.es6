@@ -1,4 +1,5 @@
 "use strict";
+/*global $*/
 
 function info(msg){
   $("#log").prepend($("<li>").text(msg));

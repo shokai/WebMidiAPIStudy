@@ -1,0 +1,27 @@
+{
+  "name": "webmidi-api-study",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Web MIDI API Study",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint */*.es6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shokai/WebMidiAPIStudy.git"
+  },
+  "keywords": [
+    "midi"
+  ],
+  "author": "Sho Hashimoto <hashimoto@shokai.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shokai/WebMidiAPIStudy/issues"
+  },
+  "homepage": "https://github.com/shokai/WebMidiAPIStudy#readme",
+  "devDependencies": {
+    "babel-eslint": "^3.1.18",
+    "eslint": "^0.23.0"
+  }
+}
