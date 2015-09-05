@@ -1,3 +1,4 @@
+// using arcore (https://github.com/rkistner/arcore)
 // read analog value and send to PC.
 
 void setup() {
