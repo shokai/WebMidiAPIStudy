@@ -1,4 +1,4 @@
-// read analog value and report
+// read analog value and send to PC.
 
 void setup() {
   pinMode(13, true);
