@@ -15,7 +15,7 @@ void loop() {
        e.m1 == 0x0B|1 && // channel 1
        e.m2 == 10
        ){
-      analogWrite(9, e.m3);
+      analogWrite(9, e.m3 * 2); // e.m3 : 0 ~ 127
     }
   }
 }
